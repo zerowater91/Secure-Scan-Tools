@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "SSCan.py", line 4, in <module>
+  File "wascan.pyc", line 28, in <module>
+  File "lib\utils\usage.pyc", line 10, in <module>
+  File "lib\utils\settings.pyc", line 64, in <module>
+  File "lib\request\ragent.pyc", line 18, in ragent
+  File "lib\utils\readfile.pyc", line 12, in readfile
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\samsung\\Desktop\\samsungcard_scantool\\dist\\lib/db/useragent.wascan'
+Traceback (most recent call last):
+  File "SSCan.py", line 126, in <module>
+  File "SSCan.py", line 19, in __init__
+  File "pygubu\builder\__init__.pyc", line 280, in add_from_file
+  File "xml\etree\ElementTree.pyc", line 1182, in parse
+  File "xml\etree\ElementTree.pyc", line 647, in parse
+IOError: [Errno 2] No such file or directory: 'scan.ui'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 801, in __bootstrap_inner
+  File "SSCan.py", line 13, in run
+  File "wascan.pyc", line 66, in main
+  File "lib\handler\attacks.pyc", line 24, in Attacks
+  File "plugins\attacks\bufferoverflow.pyc", line 74, in run
+  File "plugins\attacks\bufferoverflow.pyc", line 32, in serror
+  File "lib\utils\readfile.pyc", line 12, in readfile
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\samsung\\Desktop\\samsungcard_scantool\\dist\\library.zip\\lib/db/errors/buffer.json'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 801, in __bootstrap_inner
+  File "SSCan.py", line 13, in run
+  File "wascan.pyc", line 66, in main
+  File "lib\handler\attacks.pyc", line 24, in Attacks
+  File "plugins\attacks\bufferoverflow.pyc", line 74, in run
+  File "plugins\attacks\bufferoverflow.pyc", line 32, in serror
+  File "lib\utils\readfile.pyc", line 12, in readfile
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\samsung\\Desktop\\samsungcard_scantool\\dist\\library.zip\\lib/db/errors/buffer.json'
+
